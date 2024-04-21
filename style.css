@@ -1,0 +1,461 @@
+header{
+    width: 100%;
+    height: 5rem;
+}
+
+nav{
+    width: 100%;
+    height: 5.9rem;
+    background: url(img/fondo_header.png);
+    background-color: #64945C;
+    position: absolute;
+
+}
+
+nav .icons{
+    position: absolute;
+    display: flex;
+    width: 75%;
+    justify-content: flex-end;
+    list-style: none;
+    flex-direction: row;
+    padding-left: 15rem;
+    padding-top: 1.2rem;
+}
+
+nav .icons li a{
+    font-family:system-ui, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.25rem;
+    font-weight: 700;
+    text-transform: capitalize;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding: 2rem;
+    padding-right: 2rem;
+}
+
+nav .icons a:hover{
+    border-bottom: 0.25rem solid #3F5BA6;
+    
+}
+
+nav .logo{
+    display: flex;
+    width: 10rem;
+    height: 5rem;
+    padding-right: 0;
+    padding-left: 10rem;
+    float: left;
+}
+
+body{
+    background-color: #64945C;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    overflow-x:hidden;
+}
+
+.texto_foto_index{
+    width: 100%;
+    display: flex;
+    background-color: #64945C;
+    align-items: center;
+    padding-left: 4rem;    
+    padding-top: 4rem;
+    flex-direction: row;
+}
+
+.foto_index{
+    width: 39%;
+    height: 30%;
+    display: flex;
+    padding-right: 15rem;
+    margin: 0.5rem;
+}
+
+.texto_index{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 3rem;
+    min-height: 100%;
+}
+
+.texto_index h2{
+    width: 50%;
+    height: 10%;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
+    display: flex;
+}
+
+.texto_index p{
+    width: 70%;
+    height: 18%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: normal;
+    display: flex;
+    text-align: justify;
+}
+
+
+
+
+.descripcion{
+    display: flex;
+    width: 100%;
+    height: 15rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.descripcion h1{
+    width: 30%;
+    height: 5rem;
+    color: black;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 3rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.descripcion p{
+    display: flex;
+    width: 50%;
+    height: 10rem;
+    justify-content: flex-end;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+    padding-top: 5rem;
+}
+
+.MVV{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3rem;
+}
+
+.MVV h2{
+    width: 9rem;
+    height: 2rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 2.25rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    justify-content: center;
+}
+
+.MVV p{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-align: justify;
+}
+
+
+
+
+.explicacion{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 2rem;
+}
+
+.explicacion .capacitaciones{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.explicacion .capacitaciones h2{
+    width: 100%;
+    height: 5rem;
+    color: black;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-right: 10rem;
+}
+
+.explicacion .capacitaciones p{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+}
+
+.explicacion .arbitraje{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.explicacion .arbitraje h2{
+    width: 100%;
+    height: 5rem;
+    color: black;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 6.5rem;
+    
+}
+
+.explicacion .arbitraje p{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+}
+
+.ubi{
+    width: 70%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+}
+
+.contactanos{
+    height: 100%;
+}
+
+.contacto{
+    display: block;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    background: url(img/arbitros_river.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.contacto .titulo-contacto{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 2.25rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
+    color: rgb(255, 255, 255);
+    padding-top: 5rem;
+
+}
+
+.contacto .redes {
+    height: 100;
+    width: 100%;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: flex-end;
+    flex-direction: row;
+    padding-top: 28rem;
+}
+
+.contacto .redes ul a {
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+    padding: 4rem;
+}
+
+
+footer{
+    display: flex;
+    width: 100%;
+    padding: 2rem;
+    justify-content: flex-start;
+    align-items: flex-end;
+    margin-top: auto;
+}
+
+footer .logo_footer{
+    display: flex;
+    justify-content: flex-end;
+}
+footer .logo_footer .ig{
+    width: 2rem;
+    height: 2rem;
+    padding-right: 1rem;
+}
+
+footer .logo_footer .wpp{
+    width: 2rem;
+    height: 2rem;
+    padding-right: 1rem;
+}
+
+footer .logo_footer .mail{
+    width: 2rem;
+    height: 2rem;
+    padding-right: 1rem;
+}
+
+footer .logo_footer .Ubicacion{
+    width: 10rem;
+    height: 2rem; 
+}
+
+input{
+    display: none;
+}
+label{
+    display: none;
+}
+
+@media (max-width:768px){
+    input:checked ~ .icons{
+        display: block;
+        width: 40%;
+        background-color: #c2c0c0;       
+    }
+    input:checked ~ label{
+        background-color: #3F5BA6;
+    }
+
+    label:hover{
+        background:#64945c00;
+    }
+
+    label{
+        box-sizing: border-box;
+        display: block;
+        border: 2px solid rgb(0, 0, 0);
+        border-radius: 5px;
+        width: 2rem;
+        height: 2rem;
+        line-height: 2rem;
+        font-weight: bold;
+        text-align: center;
+        user-select: none;
+    }
+
+    nav{
+        height: 2rem;
+    }
+
+    nav .icons{
+        display: none;
+        background-color: #64945C;
+        padding: 0;
+    }
+
+    nav .icons li a{
+        padding: 0;
+    }
+
+    nav .logo{
+        display: flex;
+        padding-left:9.5rem;
+        position: absolute;
+        top: 2rem;
+    
+        
+    }
+
+    .explicacion .capacitaciones{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 3rem;
+        
+    }
+
+    .explicacion .arbitraje{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 3rem;
+    }
+
+    .explicacion .arbitraje h2{
+        padding: 1rem;
+        text-align: center;
+    }
+
+    .explicacion .capacitaciones h2{
+        text-align: center;
+        font-size: 2.5rem;
+        padding-left: 8rem;
+    }
+
+    .texto_foto_index{
+        flex-direction: column;
+        padding-left: 0;
+    }
+
+    .foto_index{
+        width: 80%;
+        padding-left: 15rem;
+    }
+
+    .MVV p{
+        text-align: center;
+    }
+
+    .descripcion{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 22rem;
+    }
+
+    .descripcion p{
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 1.5rem;
+        font-weight: 400;
+        text-align: center;
+        padding-top: 2rem;
+    }
+
+    .descripcion h1 {
+        width: 100%;
+        height: 2rem;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 2.25rem;
+        font-weight: 600;
+        text-transform: uppercase;
+        padding-top: 4rem;
+        padding-left: 2rem;
+        text-align: center
+    }
+
+
+    .contacto .redes ul a{
+       padding: 1rem;
+    }
+}
