@@ -119,14 +119,17 @@ body{
     align-items: center;
 }
 
-.descripcion h1{
+.descripcion h2{
     width: 30%;
     height: 5rem;
     color: black;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 3rem;
-    font-weight: 700;
+    font-size: 2.5rem;
+    font-weight: 600;
     text-transform: uppercase;
+    padding-top: 2rem;
+    padding-right: 2rem;
+ 
 }
 
 .descripcion p{
@@ -134,11 +137,12 @@ body{
     width: 50%;
     height: 10rem;
     justify-content: flex-end;
-    text-align: center;
+    text-align: justify;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 1.5rem;
     font-weight: 400;
     padding-top: 5rem;
+    padding-left: 2rem;
 }
 
 .MVV{
@@ -179,7 +183,7 @@ body{
 }
 
 .explicacion .capacitaciones{
-    width: 100%;
+    width: 90%;
     display: flex;
     align-items: center;
 }
@@ -191,9 +195,10 @@ body{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 3rem;
     font-style: normal;
-    font-weight: 700;
+    font-weight: 600;
     text-transform: uppercase;
     padding-right: 10rem;
+    padding-left: 2.3rem;
 }
 
 .explicacion .capacitaciones p{
@@ -202,11 +207,11 @@ body{
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    text-align: center;
+    text-align: justify;
 }
 
 .explicacion .arbitraje{
-    width: 100%;
+    width: 90%;
     display: flex;
     align-items: center;
 }
@@ -218,10 +223,10 @@ body{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 3rem;
     font-style: normal;
-    font-weight: 700;
+    font-weight: 600;
     text-transform: uppercase;
     padding: 6.5rem;
-    
+    padding-right: 14.5rem;
 }
 
 .explicacion .arbitraje p{
@@ -230,7 +235,7 @@ body{
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    text-align: center;
+    text-align: justify;
 }
 
 .ubi{
@@ -297,6 +302,7 @@ body{
 footer{
     display: flex;
     width: 100%;
+    height: 2rem;
     padding: 2rem;
     justify-content: flex-start;
     align-items: flex-end;
@@ -365,7 +371,7 @@ label{
     }
 
     nav{
-        height: 2rem;
+        height: 7rem;
     }
 
     nav .icons{
@@ -417,6 +423,10 @@ label{
         flex-direction: column;
         padding-left: 0;
     }
+    .texto_index{
+        width: 100%;
+        padding: 0;
+    }
 
     .foto_index{
         width: 80%;
@@ -431,7 +441,7 @@ label{
         display: flex;
         flex-direction: column;
         align-items: center;
-        padding-bottom: 22rem;
+        padding-bottom: 10rem;
     }
 
     .descripcion p{
@@ -440,20 +450,27 @@ label{
         font-weight: 400;
         text-align: center;
         padding-top: 2rem;
+        padding-bottom: 0rem;
+        width: 90%;
+        padding-left: 0;
     }
 
-    .descripcion h1 {
+    .descripcion h2 {
         width: 100%;
         height: 2rem;
         font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
         font-size: 2.25rem;
         font-weight: 600;
         text-transform: uppercase;
-        padding-top: 4rem;
-        padding-left: 2rem;
-        text-align: center
+        padding-top: 10rem;
+        text-align: center;
+        padding-right: 0;
     }
 
+    .contacto .titulo-contacto{
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
 
     .contacto .redes ul a{
        padding: 1rem;
