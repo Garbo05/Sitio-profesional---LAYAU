@@ -4,23 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Liga de Arbitros Y Asistentes Unidos</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
     <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
 </head>
 
 <body>
     <header>
-        <nav>
-            <input type="checkbox" id="menu">
-            <label for="menu"> ☰ </label>
-            <span class="logo"><img src="img/logo_LAYAU.png" alt="Logo LAYAU"></span>
-            <ul class="icons">
+        <img class="logo" src="img/logo_LAYAU.png" alt="logo">
+        <button id="abrir" class="hamburguesa"><i class="bi bi-list"></i></button>
+        <nav id="nav"> 
+            <ul class="nav-list">
+                <button class="cerrar-menu" id="cerrar"><i class="bi bi-x"></i></button>
                 <li><a href="index.html">Inicio</a></li>
                 <li><a href="SobreNosotros.html">Sobre Nosotros</a></li>
                 <li><a href="Servicios.html">Servicios</a></li>
                 <li><a href="Contactanos.html">Contactanos</a></li>
             </ul>
         </nav>
-    </header>
+    </header>   
 
 
     <div class="explicacion">
@@ -42,7 +44,7 @@
             <img class="Ubicacion" src="img/Logo_ubicacion.png" alt="Ubicacion">
         </div>
     </footer>
+
+    
 </body>
-
-
 </html>
